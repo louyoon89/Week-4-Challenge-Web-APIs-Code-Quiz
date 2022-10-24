@@ -10,7 +10,7 @@
 
 ## Screenshot
 Start Page:
-![Screenshot of application](./assets/images/sc1.png)
+![Screenshot of application](./assets/images/scstart.png)
 Quiz Begins:
 ![Screenshot of application](./assets/images/sc2.png)
 Quiz Results:
