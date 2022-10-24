@@ -26,7 +26,7 @@ var quizQs = [
     question: "Which Team Does Not Belong to AFC West?:",
     answerA: "A. Raiders",
     answerB: "B. Chargers",
-    answerC: "C. Bear",
+    answerC: "C. Texans",
     answerD: "D. Chiefs",
     correctAnswer: "c",
   },
