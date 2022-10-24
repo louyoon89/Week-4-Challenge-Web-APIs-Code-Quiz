@@ -10,13 +10,13 @@
 
 ## Screenshot
 Start Page:
-![Screenshot of application](./assets/images/scstart.png)
+![Screenshot of application](./assets1/sc11.png)
 Quiz Begins:
-![Screenshot of application](./assets/images/sc2.png)
+![Screenshot of application](./assets1/sc22.png)
 Quiz Results:
-![Screenshot of application](./assets/images/sc3.png)
+![Screenshot of application](./assets1/sc33.png)
 Store Scores:
-![Screenshot of application](./assets/images/sc4.png)
+![Screenshot of application](./assets1/sc44.png)
 
 ## Status
 * App has been created with HTML and CSS in browser powered by Javascript. 
