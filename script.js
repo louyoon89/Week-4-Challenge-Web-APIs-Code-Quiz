@@ -103,11 +103,11 @@ function generateQ() {
     return scorePage();
   }
   var currentQuestion = quizQs[intialValue];
-  questionsEl.innerHTML = "<p>" + currentQuestion.question + "</p>";
-  buttonA.innerHTML = currentQuestion.answerA;
-  buttonB.innerHTML = currentQuestion.answerB;
-  buttonC.innerHTML = currentQuestion.answerC;
-  buttonD.innerHTML = currentQuestion.answerD;
+  questionsEl.textContent = currentQuestion.question;
+  buttonA.textContent = currentQuestion.answerA;
+  buttonB.textContent = currentQuestion.answerB;
+  buttonC.textContent = currentQuestion.answerC;
+  buttonD.textContent = currentQuestion.answerD;
 }
 
 // Start to First Question
@@ -153,7 +153,7 @@ function scorePage() {
   gameEnd.style.display = "flex";
   clearInterval(timerInterval);
   nameInput.value = "";
-  scoreEl.innerHTML = "You got " + score + " / " + quizQs.length + " correct.";
+  scoreEl.textContent = "You got " + score + " / " + quizQs.length + " correct.";
 }
 
 // Scores
@@ -181,8 +181,8 @@ submitBtn.addEventListener("click", function highscore() {
 });
 
 function generateScore() {
-  highscoreNames.innerHTML = "";
-  highscoreValue.innerHTML = "";
+  highscoreNames.textContent = "";
+  highscoreValue.textContent = "";
   var highscores = JSON.parse(localStorage.getItem("savedScores")) || [];
   for (i = 0; i < highscores.length; i++) {
     var nameEntry = document.createElement("li");
