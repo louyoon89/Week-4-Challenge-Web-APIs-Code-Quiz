@@ -9,8 +9,14 @@
  * Once code base is properly functioning we will have to deploy the application to a live URL and Github URL which displays the site with a proper repository.
 
 ## Screenshot
-![Screenshot of application]()
-
+Start Page:
+![Screenshot of application](./assets/images/sc1.png)
+Quiz Begins:
+![Screenshot of application](./assets/images/sc2.png)
+Quiz Results:
+![Screenshot of application](./assets/images/sc3.png)
+Store Scores:
+![Screenshot of application](./assets/images/sc4.png)
 
 ## Status
 * App has been created with HTML and CSS in browser powered by Javascript. 
