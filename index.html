@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 4 Challenge API Quiz</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h2><button id="Highscore" onclick="Highscore()">High Scores</button></h2>
+      <img src="data:image/png;base64,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" alt="NFL LOGO" width="400" height="200">
+      <h2>Time: <span class="time" id="timer"></span></h2>
+    </header>
+
+    <main class="container">
+      <div id="start">
+        <h2>Test your knowledge on NFL Divisions</h2>
+        <p> Answer: 8 Questions - Time Limit: 80 second - (Incorrect answers = -10 seconds)</p>
+        <button id="startBtn">Start Quiz</button>
+      </div>
+      <div id="quiz">
+        <div id="question"><p>Questions Go Here</p></div>
+        <ul>
+          <li><button id="a" onclick="Verify('a')">A</button></li>
+          <li><button id="b" onclick="Verify('b')">B</button></li>
+          <li><button id="c" onclick="Verify('c')">C</button></li>
+          <li><button id="d" onclick="Verify('d')">D</button></li>
+        </ul>
+      </div>
+      <div id="end">
+        <div id="score"></div>
+        <input type="text" size = "40" placeholder="Enter Your Name" name="name" id="name"/>
+        <button id="submit">Submit Score</button>
+      </div>
+      <div id="highscore">
+      <div id="hsPage">
+        <div id="highscore-header">
+          <h3>Player</h3>
+          <h3>Score</h3>
+        </div>
+        <div id = "hsname"></div>
+        <div id = "hsvalue"></div>
+      </div>
+      <div id="endBtn">
+        <button id="rePlay" onclick="rePlay()">Play Again</button>
+        <button id="clearHighscore" onclick="clearScore()">Clear Scores</button>
+      </div>
+    </main>
+
+
+  </body>
+    <script src="./script.js"></script>
+</html>
