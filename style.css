@@ -25,9 +25,11 @@ header {
   font-size: 20px;
   width: 200px;
   height: 75px;
-  background-color: red;
+  background-color: transparent;
   color: white;
   font-weight: bold;
+  border: none;
+  cursor:grab;
 }
 
 button {
