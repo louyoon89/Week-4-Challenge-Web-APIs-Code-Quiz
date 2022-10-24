@@ -26,5 +26,5 @@ Store Scores:
 * Quiz will end when timer reaches 0.
 * End of quiz will take us to a score page where players will input name and score to store data to track scores. 
 * Completed all acceptance criteria and have deployed links:
-    * Live link: 
-    * Github link: 
+    * Live link: https://louyoon89.github.io/Week-4-Challenge-Web-APIs-Code-Quiz/
+    * Github link: https://github.com/louyoon89/Week-4-Challenge-Web-APIs-Code-Quiz
